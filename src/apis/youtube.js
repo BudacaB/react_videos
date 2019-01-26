@@ -1,6 +1,7 @@
 import axios from 'axios';
+import config from '../config';
 
-const KEY = 'AIzaSyApsVAswlHZcGNEur-_kDmEDgFBt0Su49A';
+const KEY = config.KEY;
 
 
 export default axios.create({
